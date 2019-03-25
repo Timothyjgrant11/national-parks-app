@@ -1,0 +1,19 @@
+.error-message {
+    color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+button, input {
+    padding: 4px;
+  }
+
+input {
+    margin-left: 2px;
+}
+
+button:hover {
+    cursor: pointer;
+  }

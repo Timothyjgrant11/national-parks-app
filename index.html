@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>National Parks App</title>
+        <link  rel="stylesheet" href="main.css" type="text/css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Search National Parks</h1>
+            <form class="submitForm">
+                <fieldset>
+                    <legend>Search</legend>
+                    Search by state<input type="text" id="userInput" placeholder="VA" maxlength="2" required>
+                    Number of parks<input type="number" id="numberInput" placeholder="10" value="10" min="1" required>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <ul id="results" class="hidden"></ul>
+            <p id="jsErrorMessage"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
