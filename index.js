@@ -14,8 +14,8 @@ function displayParks(responseJson) {
     for (let i = 0; i < responseJson.data.length; i++) {
         $('#results-list').append(
             `<li><h3>${responseJson.data[i].name}</h3>
-            <p>${responseJson.data[i].url}</p>
             <p>${responseJson.data[i].description}<p/>
+            <a href="${responseJson.data[i].url}">Link</a>
             </li>`
           )};
 
