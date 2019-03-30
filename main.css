@@ -6,14 +6,16 @@
   display: none;
 }
 
-button, input {
+input {
     padding: 4px;
+    margin-left: 2px;
   }
 
-input {
-    margin-left: 2px;
+input:hover {
+    cursor: pointer;
 }
 
-button:hover {
-    cursor: pointer;
-  }
+form {
+    font-size: 20px;
+}
+
